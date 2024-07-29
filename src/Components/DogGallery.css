@@ -1,52 +1,41 @@
-.image-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+/* App.css */
 
-.image-item {
-  margin: 10px;
-  transition: transform 0.2s;
-}
-
-.image-item:hover {
-  transform: scale(1.05);
-}
-
-.image-item img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-}
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
   padding: 20px;
 }
 
-form {
-  margin-bottom: 20px;
+h1 {
+  color: #333;
 }
 
-label {
-  margin-right: 10px;
+.BreedSelector {
+  margin: 20px 0;
 }
 
-select, input {
-  margin-right: 10px;
+.DogGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-button {
-  padding: 5px 10px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
+.DogGallery img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
 }
 
-button:hover {
-  background-color: #45a049;
+.DogGallery img:hover {
+  transform: scale(1.05);
 }
-  
 
+.Footer {
+  margin-top: 40px;
+  color: #777;
+}
 
